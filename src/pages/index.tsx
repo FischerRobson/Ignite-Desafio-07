@@ -1,5 +1,6 @@
 import { Divider, Flex, Image, SimpleGrid, Stack, Text, useBreakpointValue } from "@chakra-ui/react";
 import { Banner } from "../components/Banner";
+import { Header } from "../components/Header";
 import { OptionIcon } from "../components/OptionIcon";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
 
   return (
     <Flex direction="column" maxWidth={1480} w="100%" mx="auto">
+      <Header />
       <Banner />
 
       <SimpleGrid p={["6", "8"]} mt="15" minChildWidth="85px" spacing={["4", "6"]}>

@@ -1,6 +1,12 @@
-import { Flex, Image, useBreakpointValue } from "@chakra-ui/react";
+import { Flex, Icon, Image, Link as ChakraLink, useBreakpointValue } from "@chakra-ui/react";
+import Link from "next/link";
+import { FiChevronLeft } from "react-icons/fi";
 
-export function Header() {
+interface HeaderProps {
+  goBack?: boolean;
+}
+
+export function Header({ goBack = false }: HeaderProps) {
 
   const isWideVersion = useBreakpointValue({
     base: false,
@@ -17,6 +23,13 @@ export function Header() {
       align="center"
       bg="whiteAlpha.100"
     >
+      {goBack && (
+        <Link href='/'>
+          <ChakraLink position='absolute' left={['16px', '40px']}>
+            <Icon as={FiChevronLeft} fontSize={["1rem", "2rem"]} />
+          </ChakraLink>
+        </Link>
+      )}
       <Image mx="auto" src="/logo.svg" alt="logo" boxSize={["140px", "180px"]} />
     </Flex>
   )

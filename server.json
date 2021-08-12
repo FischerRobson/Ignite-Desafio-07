@@ -1,11 +1,49 @@
 {
   "continents": [
     { 
+      "slug": "europe",
       "name": "Europa",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "url": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
       "countries": 50,
       "languages": 60,
       "citiesInOneHoundred": 27,
+      "cities": [
+        {
+          "name": "Londres",
+          "country": "Reino Unido",
+          "url": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+          "name": "Paris",
+          "country": "França",
+          "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
+        },
+        {
+          "name": "Roma",
+          "country": "Itália",
+          "url": "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+          "name": "Praga",
+          "country": "República Tcheca",
+          "url": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+          "name": "Amsterdã",
+          "country": "Holanda",
+          "url": "https://images.unsplash.com/photo-1559653794-7e71fa65c9c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        }
+      ]
+    },
+    { 
+      "slug": "south-america",
+      "name": "América do Sul",
+      "description": "Atravessado pela Linha do Equador e pelo Trópico de Capricórnio, o continente possui a segunda maior cordilheira do mundo na Região Andina que se estende desde a Venezuela até o Chile e a Argentina. No vale do Amazonas encontramos a maior bacia hidrográfica do mundo, e também, a região de maior biodiversidade: a floresta Amazônica. O clima tropical úmido garante alta densidade pluviométrica em toda a região que se situa entre a Linha do Equador e o Trópico de Capricórnio, com algumas exceções devido ao relevo.",
+      "url": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "countries": 13,
+      "languages": 2,
+      "citiesInOneHoundred": 3,
       "cities": [
         {
           "name": "Londres",
