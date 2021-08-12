@@ -1,70 +1,242 @@
 {
   "continents": [
-    { 
+    {
       "slug": "europe",
       "name": "Europa",
+      "label": "o continente mais antigo",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-      "url": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "url": "https://source.unsplash.com/EXdXLrZXS9Q",
       "countries": 50,
-      "languages": 60,
-      "citiesInOneHoundred": 27,
+      "languages": 24,
+      "citiesInOneHoundred": 30,
       "cities": [
         {
           "name": "Londres",
           "country": "Reino Unido",
-          "url": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          "countryCode": "GB",
+          "url": "https://source.unsplash.com/Ab9vQBR6f8E"
         },
         {
           "name": "Paris",
           "country": "França",
-          "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
+          "countryCode": "FR",
+          "url": "https://source.unsplash.com/NT1mJPgni6A"
         },
         {
           "name": "Roma",
           "country": "Itália",
-          "url": "https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          "countryCode": "IT",
+          "url": "https://source.unsplash.com/hs9hfDfeC3Q"
         },
         {
           "name": "Praga",
-          "country": "República Tcheca",
-          "url": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          "country": "República Checa",
+          "countryCode": "CZ",
+          "url": "https://source.unsplash.com/X8Vo9rGVPS8"
         },
         {
-          "name": "Amsterdã",
-          "country": "Holanda",
-          "url": "https://images.unsplash.com/photo-1559653794-7e71fa65c9c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          "name": "Barcelona",
+          "country": "Espanha",
+          "countryCode": "ES",
+          "url": "https://source.unsplash.com/oJsRqwMHWHI"
+        },
+        {
+          "name": "Milão",
+          "country": "Itália",
+          "countryCode": "IT",
+          "url": "https://source.unsplash.com/SKHcpqR8aEY"
         }
       ]
     },
-    { 
+    {
+      "slug": "asia",
+      "name": "Ásia",
+      "label": "o continente mais populoso",
+      "description": "A Ásia é o maior continente, tanto em área (chega a quase um terço de todas as terras emersas do nosso planeta) como em população, onde habitam aproximadamente 4,5 bilhões de habitantes.",
+      "url": "https://source.unsplash.com/WHhbYArwFt8",
+      "countries": 51,
+      "languages": 2300,
+      "citiesInOneHoundred": 50,
+      "cities": [
+        {
+          "name": "Hong Kong",
+          "country": "China",
+          "countryCode": "CN",
+          "url": "https://source.unsplash.com/JVCozvGeKNs"
+        },
+        {
+          "name": "Bangkok",
+          "country": "Tailândia",
+          "countryCode": "TH",
+          "url": "https://source.unsplash.com/Wo0K--ktL_M"
+        },
+        {
+          "name": "Macau",
+          "country": "China",
+          "countryCode": "CN",
+          "url": "https://source.unsplash.com/2AUg3F3SmLI"
+        },
+        {
+          "name": "Dubai",
+          "country": "Emirados Árabes Unidos",
+          "countryCode": "AE",
+          "url": "https://source.unsplash.com/VbDjv8-8ibc"
+        },
+        {
+          "name": "Kuala Lumpur",
+          "country": "Malásia",
+          "countryCode": "MY",
+          "url": "https://source.unsplash.com/NecP3sIvRX8"
+        },
+        {
+          "name": "Delhi",
+          "country": "Índia",
+          "countryCode": "IN",
+          "url": "https://source.unsplash.com/LLK0mYl-lu0"
+        }
+      ]
+    },
+    {
+      "slug": "africa",
+      "name": "África",
+      "label": "o continente mais exuberante",
+      "description": "África é um dos seis continentes do mundo, sendo o terceiro maior em extensão territorial. É conhecida pela sua pluralidade étnica e cultural, e, por meio de uma história milenar, é capaz de contar a história de toda a humanidade.",
+      "url": "https://source.unsplash.com/60XLoOgwkfA",
+      "countries": 54,
+      "languages": 2000,
+      "citiesInOneHoundred": 4,
+      "cities": [
+        {
+          "name": "Cairo",
+          "country": "Egito",
+          "countryCode": "EG",
+          "url": "https://source.unsplash.com/TAtKoLZUc3I"
+        },
+        {
+          "name": "Joanesburgo",
+          "country": "África do Sul",
+          "countryCode": "ZA",
+          "url": "https://source.unsplash.com/ybjhQsdXxzY"
+        },
+        {
+          "name": "Marrakech",
+          "country": "Marrocos",
+          "countryCode": "MA",
+          "url": "https://source.unsplash.com/pr_PlYC8xhM"
+        },
+        {
+          "name": "Hurghada",
+          "country": "Egito",
+          "countryCode": "EG",
+          "url": "https://source.unsplash.com/XQeX6FLFG8E"
+        }
+      ]
+    },
+    {
+      "slug": "north-america",
+      "name": "América do Norte",
+      "label": "o continente mais rico",
+      "description": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica).",
+      "url": "https://source.unsplash.com/B74k5ZpiJNU",
+      "countries": 23,
+      "languages": 165,
+      "citiesInOneHoundred": 10,
+      "cities": [
+        {
+          "name": "New York City",
+          "country": "Estados Unidos",
+          "countryCode": "US",
+          "url": "https://source.unsplash.com/iEgP_YHs-jM"
+        },
+        {
+          "name": "Miami",
+          "country": "Estados Unidos",
+          "countryCode": "US",
+          "url": "https://source.unsplash.com/Ev0Vj_0PPck"
+        },
+        {
+          "name": "Los Angeles",
+          "country": "Estados Unidos",
+          "countryCode": "US",
+          "url": "https://source.unsplash.com/4iXagiKXn3Y"
+        },
+        {
+          "name": "Las Vegas",
+          "country": "Estados Unidos",
+          "countryCode": "US",
+          "url": "https://source.unsplash.com/fuDu3_o_TaY"
+        },
+        {
+          "name": "Cancún",
+          "country": "México",
+          "countryCode": "MX",
+          "url": "https://source.unsplash.com/jdswuUaDeKM"
+        },
+        {
+          "name": "Orlando",
+          "country": "Estados Unidos",
+          "countryCode": "US",
+          "url": "https://source.unsplash.com/pprY3KCsoAg"
+        }
+      ]
+    },
+    {
       "slug": "south-america",
       "name": "América do Sul",
-      "description": "Atravessado pela Linha do Equador e pelo Trópico de Capricórnio, o continente possui a segunda maior cordilheira do mundo na Região Andina que se estende desde a Venezuela até o Chile e a Argentina. No vale do Amazonas encontramos a maior bacia hidrográfica do mundo, e também, a região de maior biodiversidade: a floresta Amazônica. O clima tropical úmido garante alta densidade pluviométrica em toda a região que se situa entre a Linha do Equador e o Trópico de Capricórnio, com algumas exceções devido ao relevo.",
-      "url": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "countries": 13,
-      "languages": 2,
+      "label": "o continente mais lindo",
+      "description": "A América do Sul está localizada em grande parte no hemisfério sul, na zona intertropical ocidental. A América do Sul abrange um território de 18 milhões de quilômetros quadrados e é banhada a leste pelo oceano Atlântico, a oeste pelo oceano Pacífico e ao norte pelo mar das Antilhas, conhecido como do Caribe.",
+      "url": "https://source.unsplash.com/hbs08ml2T2c",
+      "countries": 14,
+      "languages": 5,
       "citiesInOneHoundred": 3,
       "cities": [
         {
-          "name": "Londres",
-          "country": "Reino Unido",
-          "url": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          "name": "Buenos aires",
+          "country": "Argentina",
+          "countryCode": "AR",
+          "url": "https://source.unsplash.com/_yo28TDZFNo"
         },
         {
-          "name": "Paris",
-          "country": "França"
+          "name": "Lima",
+          "country": "Peru",
+          "countryCode": "PE",
+          "url": "https://source.unsplash.com/6Q4wktTem_I"
         },
         {
-          "name": "Roma",
-          "country": "Itália"
+          "name": "Rio de Janeiro",
+          "country": "Brasil",
+          "countryCode": "BR",
+          "url": "https://source.unsplash.com/tYGZvg-Ozh4"
+        }
+      ]
+    },
+    {
+      "slug": "oceania",
+      "name": "Oceania",
+      "label": "o continente mais isolado",
+      "description": "A Oceania é o continente mais isolado do mundo, sua barreira geográfica fez com que fosse o último a ser descoberto pelos europeus. Em razão desse atraso em seu descobrimento ficou conhecido como 'mundo novo'.",
+      "url": "https://source.unsplash.com/Hao52Fu9-F8",
+      "countries": 14,
+      "languages": 5000,
+      "citiesInOneHoundred": 3,
+      "cities": [
+        {
+          "name": "Sydney",
+          "country": "Austrália",
+          "countryCode": "AU",
+          "url": "https://source.unsplash.com/F2LC2eh4TCg"
         },
         {
-          "name": "Praga",
-          "country": "República Tcheca"
+          "name": "Melbourne",
+          "country": "Austrália",
+          "countryCode": "AU",
+          "url": "https://source.unsplash.com/-gmtAa0Q5MI"
         },
         {
-          "name": "Amsterdã",
-          "country": "Holanda"
+          "name": "Auckland",
+          "country": "Nova Zelândia",
+          "countryCode": "NZ",
+          "url": "https://source.unsplash.com/hIKVSVKH7No"
         }
       ]
     }

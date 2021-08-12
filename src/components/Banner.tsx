@@ -9,7 +9,7 @@ export function Banner() {
 
   if (isWideVersion) {
     return (
-      <Image src="/wideBanner.svg" alt="banner" />
+      <Image w="100%" src="/wideBanner.svg" alt="banner" />
     )
   }
 

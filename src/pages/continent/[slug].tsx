@@ -18,6 +18,7 @@ type ContinentType = {
   cities: {
     name: string;
     country: string;
+    countryCode: string;
     url: string;
   }[]
 }
@@ -75,7 +76,7 @@ export default function Continent({ continent }: ContinentProps) {
             <SimpleGrid columns={[1, 4]} spacing={[5, 10]} my={['5', '45px']}>
               {continent.cities.map(city => {
                 return (
-                  <CityBanner image={city.url} name={city.name} country={city.country} />
+                  <CityBanner image={city.url} name={city.name} country={city.country} countryCode={city.countryCode} />
                 )
               })}
             </SimpleGrid>
